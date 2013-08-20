@@ -8,6 +8,7 @@
 
 #import "UIBarButtonItem+FlatUI_iOS7_BackButton.h"
 #import "UIImage+FlatUI.h"
+#import "UIBarButtonItem+FlatUI.h"
 
 /*** UNEXPECTED ****
  

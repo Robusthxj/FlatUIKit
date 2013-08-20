@@ -125,7 +125,8 @@ static CGFloat edgeSizeFromCornerRadius(CGFloat cornerRadius) {
     UIGraphicsBeginImageContextWithOptions(size, NO, 0.0f);
     
     CGContextRef context = UIGraphicsGetCurrentContext();
-    CGContextSetStrokeColorWithColor(context, [UIColor colorWithR:0 g:122 b:245].CGColor);
+
+    CGContextSetStrokeColorWithColor(context, [UIColor colorWithRed:0/256.0 green:122/256.0 blue:245/256.0 alpha:1.0].CGColor);
     CGContextSetLineWidth(context, 3.0f);
     
     static CGFloat const k_tip_x = 8;
